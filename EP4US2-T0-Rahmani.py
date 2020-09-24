@@ -2,7 +2,7 @@ from random import randint
 t = ["R", "P", "S"]
 computer = t[randint(0,2)]
 print("Welcome to the game of Rock-Paper-scissors")
-human_input = input("Select your champion (R/P/S)")
+human_input = input("Select your champion (R/P/S): ")
 if (human_input == "R") or (human_input == "P") or (human_input == "S"):
     print ("Computer chose:",computer)
     if (human_input == "R"):
